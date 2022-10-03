@@ -1,0 +1,115 @@
+.header {
+  width: 100%;
+  height: 60px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .header_logo {
+  margin-left: 20px;
+  width: 32px;
+  height: 36px;
+  background-image: url(/source/less/img/header_logo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.header .header_nav {
+  display: none;
+}
+.header .active_header_nav {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 3;
+  background-color: white;
+}
+.header .active_header_nav .nav_item {
+  height: 60px;
+  border-bottom: 1px solid #EAE6FC;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header .active_header_nav .nav_item a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.header .active_header_nav .active_items {
+  border-bottom: 2px solid #7859CF;
+  border-top: 1px solid #EAE6FC;
+}
+.header .header_button {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  width: 120px;
+}
+.header .header_button .conteiner_button_header {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header .header_button .conteiner_button_header .header_login {
+  background-image: url(/source/less/img/header_login.png);
+  width: 16px;
+  height: 16px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.header .header_button .conteiner_button_header .header_basket {
+  background-image: url(/source/less/img/header_basket.png);
+  width: 16px;
+  height: 16px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.header .header_button .header_popup {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header .header_button .header_popup .button_popup {
+  border: none;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 16px;
+  height: 16px;
+  position: relative;
+  top: 0px;
+  right: 0px;
+  z-index: 3;
+}
+.header .header_button .header_popup .button_popup .popup_line {
+  display: flex;
+  flex-direction: column;
+  width: 16px;
+  height: 2px;
+  background-color: black;
+}
+.header .header_button .header_popup .button_popup .closed_icon {
+  display: flex;
+  background-image: url(/source/less/img/close.png);
+  width: 16px;
+  height: 16px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.header .header_button .header_popup .button_popup .none_icon {
+  display: none;
+}

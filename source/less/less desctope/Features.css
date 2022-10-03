@@ -1,0 +1,76 @@
+.features {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 20px 60px 20px;
+  background-color: white;
+}
+.features .title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.features .title .text_badge {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #7859CF;
+}
+.features .title .text_heading2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  color: #333333;
+}
+.features .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 32px;
+  width: 50%;
+}
+.features .card .img {
+  width: 52px;
+  height: 56px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 10px;
+}
+.features .card .icon1 {
+  background-image: url(/source/less/img/icon_1.png);
+}
+.features .card .icon2 {
+  background-image: url(/source/less/img/icon_2.png);
+}
+.features .card .icon3 {
+  background-image: url(/source/less/img/icon_3.png);
+  height: 66px;
+}
+.features .card .icon4 {
+  background-image: url(/source/less/img/icon_4.png);
+}
+.features .card .title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  color: #333333;
+}
+.features .card .description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #333333;
+}
